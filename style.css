@@ -1,0 +1,46 @@
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background: linear-gradient(to right, #12130f,
+            #ff6b08, #f00606, #1b1a13);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+body{
+    background-color: #cbaac8;
+    background-image: linear-gradient(rgb(215, 214, 116),rgb(13, 134, 73));
+    background-size: cover;
+}
+#previous{
+    position: absolute;
+    left:0;
+    top:350px;
+}
+#next{
+    position: absolute;
+    right:0;
+    top:350px;
+}
+.pagenum{
+    background-color: rgb(128, 146, 250);
+    color:black;
+    align-items: center;
+}
+.cardbg{
+    background-color: rgb(127, 68, 103);
+    border:5px solid rgb(241, 242, 245);
+    width:250px;
+    height:600px;
+}
+.name{
+    color:rgb(232, 228, 11);
+}
+#movedata{
+    height: 120px;
+    overflow: auto;
+    overflow-x: hidden;
+    
+}
+#page{
+    margin-left: 680px;
+    margin-bottom: 50px;;
+}
